@@ -45,6 +45,16 @@
                 font-size: 3.5rem;
             }
         }
+
+        p a {
+            background-color: transparent;
+            color: white;
+        }
+
+        .card {
+            border : 1px solid black;
+        }
+
     </style>
 </head>
 
@@ -81,7 +91,7 @@
                             </img>
 
                             <div class="card-body" style="background-color: #a032a8;">
-                                <p class="card-text" style="text-align: justify; color:white;">Youtube Premium!<br> Kelebihan :<br> -Video bebas iklan<br> -Putar di layar belakang<br> -Download video untuk ditonton offline<br> SISTEM BAYAR DULU LALU UPLOAD BUKTI TRANSFER</p>
+                                <p class="card-text" style="text-align: justify; color:white;">Youtube Premium!<br> SISTEM BAYAR DULU LALU UPLOAD BUKTI TRANSFER</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <a href="YTOrder.php">
                                         <button type="button" class="btn btn-sm btn-outline-secondary" style="border-color:white; color:white">Order</button>
@@ -208,7 +218,7 @@
 
     <footer class="text-muted" style="background-image: url(bglogin.jpg); background-repeat: no-repeat; background-size: cover;">
         <div class="container" style="color:white;">
-            <p class="float-right" style="background-color:white;">
+            <p class="float-right">
                 <a href="Login.php">Login (Admin Only)</a>
             </p>
             <p>Butuh bantuan atau ingin request item lainnya? Hubungi saja ke <a href="https://wa.me/08895954173">08895954173</a> </p>

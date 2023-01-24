@@ -13,7 +13,7 @@
     <form action="login_action.php" method="post">
         <div id="div1" align="center">
             <div id="picture">
-                <img src="Logo.png" height="90" width="90" />
+                <a href="Homepage.php"><img src="Logo.png" height="90" width="90" /></a>
             </div>
             <div id="header">
                 <h1 id="heading">Login</h1>

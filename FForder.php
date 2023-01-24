@@ -6,7 +6,7 @@
     <link rel="icon" href="Logo.png" sizes="16x16" type="image/png">
     <link rel="mask-icon" href="Logo.png" color="#563d7c">
     <link rel="icon" href="Icon.png">
-    <title>OnstorE : Mobile Legend</title>
+    <title>OnstorE : Free Fire</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
@@ -37,22 +37,22 @@
                     <tr>
                         <td align="center">Nama Item</td>
                         <td>:</td>
-                        <td><input type="text" size="30" placeholder="20 DM 3.000" required /></td>
+                        <td><input name="namaitem" type="text" size="30" placeholder="20 DM 3.000" required /></td>
                     </tr>
                     <tr>
                         <td align="center">Nick</td>
                         <td>:</td>
-                        <td><input type="text" size="30" placeholder="Nickname Free Fire Anda" required /></td>
+                        <td><input name="nickname" type="text" size="30" placeholder="Nickname Free Fire Anda" required /></td>
                     </tr>
                     <tr>
                         <td align="center">Id</td>
                         <td>:</td>
-                        <td><input type="text" size="30" placeholder="12345678" required /></td>
+                        <td><input name="idgame" type="text" size="30" placeholder="12345678" required /></td>
                     </tr>
                     <tr>
                         <td align="center">Bukti</td>
                         <td>:</td>
-                        <td><input type="file" accept="image/*" required /></td>
+                        <td><input name="bukti" type="file" accept="image/*" required /></td>
                     </tr>
                 </table>
                 <input class="btn btn-sm btn-outline-secondary" style="border-color:white; color:white" type="submit" value="ORDER" />
@@ -112,5 +112,6 @@
         }
     </style>
 </body>
+
 
 </html>
